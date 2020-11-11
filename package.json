@@ -18,9 +18,13 @@
     "ejs": "^3.1.5",
     "express": "^4.16.3",
     "express-handlebars": "^5.1.0",
-    "pug": "^3.0.0"
+    "mysql2": "^2.2.5",
+    "pug": "^3.0.0",
+    "sequelize": "^6.3.5"
   },
-  "nodemonConfig": {    
-    "ignore": ["data/products.json"]  
+  "nodemonConfig": {
+    "ignore": [
+      "data/products.json"
+    ]
   }
 }
